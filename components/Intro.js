@@ -11,7 +11,7 @@ export const Intro = ({ title, description, image, buttons }) => {
 				<div className=" row align-items-center">
 					<div className="col-sm-6">
 						<h1 className="text-primary fw-bold display-3">{title}</h1>
-						<p>{description}</p>
+						<p className="text-light fw-display-8">{description}</p>
 						<div className="text-center">
 							{buttons.map((value, index) => (
 								(value.isPrimary) ?
@@ -29,7 +29,7 @@ export const Intro = ({ title, description, image, buttons }) => {
 						<img
 							className="img-fluid my-3 card-image" width="250"
 							height="250" src={image}
-							alt="profile of hashirshoaeb"
+							alt="profile of Paulo"
 						/>
 					</div>
 				</div>

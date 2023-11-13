@@ -1,6 +1,6 @@
 
 import profile from './profile.png';
-import { faChrome, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
+import { faChrome, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
@@ -36,7 +36,7 @@ export const intro = {
 		},
 		{
 			title: "CV",
-			link: "https://drive.google.com/file/d/11JOhMjuRmikCDcOEpYV600B7e3LIzcv6/view?usp=drive_link",
+			link: "https://drive.google.com/file/d/1se7aSl0iyDUHg4uFJacFGNbYq4-DE05Y/view?usp=sharing",
 			isPrimary: false,
 		},
 	],
@@ -45,7 +45,7 @@ export const intro = {
 export const about = {
 	title: "¿Quién soy?",
 	description: [
-		"Bueno, te lo resumo: soy un apasionado por la tecnología en general, la cual se me da con naturalidad. Con 25 años de Analista de Sistemas y mucho camino recorrido desarrollando programas en Visual Basic 6 y .NET, decidí actualizarme.",
+		"Soy un apasionado por la tecnología en general, la cual se me da con naturalidad. Con 25 años de Analista de Sistemas y mucho camino recorrido desarrollando programas en Visual Basic 6 y .NET, decidí actualizarme.",
 		"Hace unos años no necesitabas más que Visual Basic, MS-Access y creatividad para desarrollar un sistema completo. Hoy en día los requerimientos son muy diferentes y considero que se debe tener un catálogo más grande en el abanico de herramientas, si uno quiere destacar. En este momento ya completé el Bootcamp Fullstack Developer en Henry, donde sumé experiencia y nuevos conocimientos de programación.",
 		"Cuando no estoy programando, disfruto de conocer y probar aplicaciones relacionadas con la inteligencia artificial. Soy un entusiasta. No llego a imaginar hasta dónde nos cambiará la vida en el futuro. Por ahora me asombro creando fotografías de personas virtuales.",
 	],
@@ -63,7 +63,7 @@ export const work = {
 }
 
 export const projects = {
-	title: "Projectos",
+	title: "Proyectos",
 	cards: [
 		{
 			title: " PI Videogames",
@@ -98,7 +98,7 @@ export const contact = {
 export const SEO = {
 	// 50 - 60 char  
 	title: "Paulo Vinci | Full stack developer | JavaScript | Reactjs developer",
-	description: "I create static websites. I have a tertiary-level degree. Graduated in 1997 with a degree in Systems Analyst.",
+	description: "Desarrollo sitios web. Analista de sistemas nivel terciario.",
 	image: profile.src,
 }
 

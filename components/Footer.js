@@ -33,7 +33,7 @@ export const Contact = ({ title, description, buttons }) => {
 export const Footer = () => {
 	return (
 		<footer className="bg-secondary text-center py-2 px-5">
-			<div className="container text-muted">
+			<div className="bg-secondary text-center py-2 px-5">
 				<small>&copy; 2021 {" "}
 					<Link href="https://github.com/hashirshoaeb">
 						<a>hashirshoaeb</a>

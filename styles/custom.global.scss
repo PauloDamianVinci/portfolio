@@ -1,70 +1,23 @@
-// Custom.scss
-// https://getbootstrap.com/docs/5.0/customize/sass/
-
-
+$enable-gradients: true;
+$enable-shadows: true;
+$offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "~bootstrap/scss/functions";
-
-
-// 2. Include any default variable overrides here
-
-// $primary-background: #FFFFFF;
-// $secondary-background: #F7F7F7;
-// $tertiary-background: #365B6D;
-
-// $primary-font: #000000;
-// $secondary-font: #F7F7F7;
-// $tertiary-font: #365B6D;
-// $inverted-font: #FFFFFF;
+// Customize some defaults
+$body-color: #333;
+$body-bg: #fff;
+$border-radius: .4rem;
+// $success: #7952b3;
+$success: #55b352;
 
 // bootstrap overrides 
-$primary: #365B6D;
-$secondary: #F7F7F7;
+$primary: #04f5f5;
+$secondary: #807a7a;
 $light: #FFFFFF;
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
 $font-family-sans-serif: -apple-system, 'Barlow', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-
 $card-border-radius: 15px;
-
-
-
-// font 
-// Title
-// font-family: Barlow;
-// font-style: normal;
-// font-weight: bold;
-// font-size: 64px;
-// line-height: 77px;
-
-// Heading1
-// font-family: Barlow;
-// font-style: normal;
-// font-weight: bold;
-// font-size: 50px;
-// line-height: 60px;
-
-// Heading2
-// font-family: Barlow;
-// font-style: normal;
-// font-weight: normal;
-// font-size: 24px;
-// line-height: 29px;
-
-// Lead Text
-// font-family: Barlow;
-// font-style: normal;
-// font-weight: normal;
-// font-size: 18px;
-// line-height: 22px;
-
-// Normal
-// font-family: Barlow;
-// font-style: normal;
-// font-weight: normal;
-// font-size: 15px;
-// line-height: 18px;
-
 
 
 // 3. Include remainder of required Bootstrap stylesheets
@@ -138,15 +91,19 @@ a {
 
 .card-work:hover {
   box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+
 }
 
 .card-image {
   transition: all .3s;
   border-radius: $card-border-radius;
-  box-shadow: 1rem 1rem $primary;
+  box-shadow: 0.5rem 0.5rem $primary;
 }
 
 .card-image:hover {
   transform: translate(-0.5rem, -0.5rem);
-  box-shadow: 2rem 2rem $primary;
+  box-shadow: 1rem 1rem $primary;
+
+  filter: saturate(180%);
+  transition: all .5s ease-in-out;
 }
