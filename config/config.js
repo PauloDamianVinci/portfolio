@@ -1,114 +1,81 @@
 
 import profile from './profile.png';
-import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
+import { faChrome, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-	name: "Hashir",
+	name: "Paulo Vinci",
 	links: [
 		{
-			title: "About",
+			title: "Acerca de",
 			link: "#about",
 		},
 		{
-			title: "Projects",
+			title: "Proyectos",
 			link: "#projects",
 		},
 		{
-			title: "Contact",
+			title: "Contacto",
 			link: "#contact",
 		},
 		{
 			title: "Links",
 			link: "/links",
 		},
-		{
-			title: "Blog",
-			link: "https://medium.com/@hashirshoaeb",
-		}
 	],
 }
 export const intro = {
-	title: "Hey, I'm Hashir",
-	description: "A Computer Engineer creating mobile apps and static websites.",
+	title: "Hola, soy Paulo",
+	description: "Un entusiasta de la tecnología.",
 	image: profile.src,
 	buttons: [
 		{
-			title: "Contact Me",
+			title: "Contacto",
 			link: "#contact",
 			isPrimary: true,
 		},
 		{
-			title: "Resume",
-			link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+			title: "CV",
+			link: "https://drive.google.com/file/d/11JOhMjuRmikCDcOEpYV600B7e3LIzcv6/view?usp=drive_link",
 			isPrimary: false,
 		},
 	],
 }
 
 export const about = {
-	title: "Who I am",
+	title: "¿Quién soy?",
 	description: [
-		"I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-		"The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-		"When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+		"Bueno, te lo resumo: soy un apasionado por la tecnología en general, la cual se me da con naturalidad. Con 25 años de Analista de Sistemas y mucho camino recorrido desarrollando programas en Visual Basic 6 y .NET, decidí actualizarme.",
+		"Hace unos años no necesitabas más que Visual Basic, MS-Access y creatividad para desarrollar un sistema completo. Hoy en día los requerimientos son muy diferentes y considero que se debe tener un catálogo más grande en el abanico de herramientas, si uno quiere destacar. En este momento ya completé el Bootcamp Fullstack Developer en Henry, donde sumé experiencia y nuevos conocimientos de programación.",
+		"Cuando no estoy programando, disfruto de conocer y probar aplicaciones relacionadas con la inteligencia artificial. Soy un entusiasta. No llego a imaginar hasta dónde nos cambiará la vida en el futuro. Por ahora me asombro creando fotografías de personas virtuales.",
 	],
 }
 
 export const work = {
-	title: "What I do",
+	title: "¿Qué hago?",
 	cards: [
 		{
-			title: "Mobile App Development",
-			description: "I create pixel perfect iOS and Andriod apps using Flutter.",
-			icons: null,
-		},
-		{
-			title: "Web Development",
-			description: "I create responsive static websites using Reactjs.",
+			title: "Desarrollo web",
+			description: "Creo sitios estáticos usando Reactjs.",
 			icons: null,
 		}
 	],
 }
 
 export const projects = {
-	title: "Projects",
+	title: "Projectos",
 	cards: [
 		{
-			title: "StarBook",
-			description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+			title: " PI Videogames",
+			description: "Hace tiempo atrás, los desarrollos quedaban guardados en diskettes dentro de una caja fuerte. Afortunadamente hoy puedo mostrar, al menos, mi proyecto integrador PI Videogames. Se trata de mi proyecto individual, aplicando exclusivamente los conocimientos y tecnologías incluidas en la cursada (React, React Router, Redux Toolkit, Styled components, CSS modules, Express, Sequelize, PostgreSQL, Axios). Temática: videojuegos.",
 			icons: [
 				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
+					icon: faChrome,
+					link: "https://client-jet-omega.vercel.app",
 				},
 				{
 					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/star_book",
-				},
-			]
-		},
-		{
-			title: "QuranTalk",
-			description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
-			icons: [
-				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
-				},
-				{
-					icon: faGooglePlay,
-					link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
-				},
-			]
-		},
-		{
-			title: "Portfolio",
-			description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
-			icons: [
-				{
-					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/portfolio",
+					link: "https://github.com/PauloDamianVinci/videogames",
 				},
 			]
 		},
@@ -116,18 +83,13 @@ export const projects = {
 }
 
 export const contact = {
-	title: "Get in touch",
-	description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+	title: "Contacto",
+	description: "Pueden contactarme por correo electrónico a paulodamianvinci@gmail.com.",
 	buttons: [
 		{
-			title: "Email Me",
-			link: "mailto:hashirshoaeb@gmail.com",
+			title: "Mail",
+			link: "mailto:paulodamianvinci@gmail.com",
 			isPrimary: true,
-		},
-		{
-			title: "Schedule Meeting",
-			link: "https://topmate.io/hashirshoaeb",
-			isPrimary: false,
 		},
 	]
 }
@@ -135,35 +97,31 @@ export const contact = {
 // SEARCH ENGINE 
 export const SEO = {
 	// 50 - 60 char  
-	title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-	description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+	title: "Paulo Vinci | Full stack developer | JavaScript | Reactjs developer",
+	description: "I create static websites. I have a tertiary-level degree. Graduated in 1997 with a degree in Systems Analyst.",
 	image: profile.src,
 }
 
 export const links = {
 	image: profile.src,
-	title: "@hashirshoaeb",
-	description: "Computer Engineer | Flutter | Reactjs Developer",
+	title: "Paulo Vinci",
+	description: "Full stack developer | JavaScript | Reactjs Developer",
 	cards: [
+		// {
+		// 	title: "My website",
+		// 	link: "https://hashirshoaeb.com/",
+		// },
 		{
-			title: "My website",
-			link: "https://hashirshoaeb.com/",
-		},
-		{
-			title: "QuranTalk App",
-			link: "https://www.qurantalk.app/",
-		},
-		{
-			title: "StarBook App",
-			link: "https://starbook.dev/",
+			title: "PI Videogames",
+			link: "https://client-jet-omega.vercel.app",
 		},
 		{
 			title: "My GitHub",
-			link: "https://github.com/hashirshoaeb/",
+			link: "https://github.com/PauloDamianVinci/",
 		},
 		{
 			title: "My LinkedIn",
-			link: "https://www.linkedin.com/in/hashirshoaeb/",
+			link: "https://www.linkedin.com/in/paulo-damian-vinci/",
 		},
 	]
 }
