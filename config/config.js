@@ -1,6 +1,6 @@
 
 import profile from './profile.png';
-import { faChrome, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faChrome, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
@@ -76,6 +76,16 @@ export const projects = {
 				{
 					icon: faGithub,
 					link: "https://github.com/PauloDamianVinci/videogames",
+				},
+			]
+		},
+		{
+			title: " Laura Vargas - Cejas y Pestañas",
+			description: "Con este desarrollo en equipo, logré graduarme. Tuvimos la suerte de trabajar para un cliente real, con lo cual no puedo mostrar el código, pero sí compartir un video del mismo: https://youtu.be/rRU_QRKHRtI. Es una Aplicación de Página Única (ASP) destinada a servir como la interfaz principal para la gestión integral de un Salón de Belleza. Esta SPA ofrece un conjunto completo de operaciones CRUD (Crear, Leer, Actualizar y Eliminar) para llevar adelante el negocio de manera completa, brindando así un control global de sus operaciones diarias.",
+			icons: [
+				{
+					icon: faInstagram,
+					link: "https://www.instagram.com/lauravargas.cpmu/",
 				},
 			]
 		},
